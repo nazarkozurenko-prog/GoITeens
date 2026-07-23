@@ -12,10 +12,6 @@ public class CubeAnim : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            animator.SetTrigger("SpinTrigger");
-        }
         if(Input.GetKeyUp(KeyCode.H)) 
         {
             animator.SetTrigger("Win");
